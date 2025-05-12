@@ -1,6 +1,7 @@
 local plr = game.Players.LocalPlayer
 local emotegui = Instance.new("ScreenGui")
 emotegui.Parent = plr.PlayerGui
+emotegui.ResetOnSpawn = false
 local textbox = Instance.new("TextBox")
 textbox.Size =UDim2.new(0.194, 0,0.063, 0)
 textbox.Position =UDim2.new(0.431, 0,0.1, 0)
