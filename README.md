@@ -25,7 +25,9 @@ local function thign(emote)
 			sound.Volume = sfx2.Volume
 		end)
 		soundend = sound
+		sound.Looped = true
 		sound:Play()
+		
 		sound.Ended:Connect(function()
 			sound:Destroy()
 		end)
